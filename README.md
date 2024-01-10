@@ -1,12 +1,12 @@
 # Cog wrapper for Stable Zero123
 
-A Cog wrapper for Stable Zero123, The Stable-Zero123, based on the Stable Diffusion 1.5 framework, is designed for the generation of 3D object representations from multiple views. It incorporates Score Distillation Sampling (SDS) to optimize Neural Radiance Fields (NeRF), facilitating the creation of textured 3D meshes. The API also supports the conversion of text descriptions into 3D objects, initially using SDXL for image generation and subsequently applying the Stable Zero123 model for 3D generation. See the official [announcement](https://stability.ai/news/stable-zero123-3d-generation), Hugging Face model [page](https://huggingface.co/stabilityai/stable-zero123) and [Replicate demo](https://replicate.com/adirik/stable-zero123) for details. 
+A Cog wrapper for Stable Zero123, The Stable-Zero123, based on the Stable Diffusion 1.5 framework, is designed for the generation of 3D object representations from multiple views. It incorporates Score Distillation Sampling (SDS) to optimize Neural Radiance Fields (NeRF), facilitating the creation of textured 3D meshes. The API also supports the conversion of text descriptions into 3D objects, initially using SDXL for image generation and subsequently applying the Stable Zero123 model for 3D generation. See the official [announcement](https://stability.ai/news/stable-zero123-3d-generation) and Hugging Face model [page](https://huggingface.co/stabilityai/stable-zero123). 
 
 **Note**: This implementation is adapted from [threestudio](https://github.com/threestudio-project/threestudio)'s implementation for 3D generation.
 
 ## API Usage
 
-You need to have Cog and Docker installed to run this model locally. Follow the [model pushing guide](https://replicate.com/docs/guides/push-a-model) to push your own fork of Stable Zero123 to [Replicate](https://replicate.com). To use Stable Zero123, you need to upload an image or provide a text prompt for the desired object to be generated. The outputs will be either multi-view images of the object or a 3D object file in .glb format.
+You need to have Cog and Docker installed to run this model locally. To use Stable Zero123, you need to upload an image or provide a text prompt for the desired object to be generated. The outputs will be either multi-view images of the object or a 3D object file in .glb format.
 
 To build the docker image with cog and run a prediction:
 ```bash
