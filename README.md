@@ -1,6 +1,6 @@
 # Cog wrapper for Stable Zero123
 
-A Cog wrapper for Stable Zero123, The Stable-Zero123, based on the Stable Diffusion 1.5 framework, is designed for the generation of 3D object representations from multiple views. It incorporates Score Distillation Sampling (SDS) to optimize Neural Radiance Fields (NeRF), facilitating the creation of textured 3D meshes. The API also supports the conversion of text descriptions into 3D objects, initially using SDXL for image generation and subsequently applying the Stable Zero123 model for 3D generation. See the official [announcement](https://stability.ai/news/stable-zero123-3d-generation) and Hugging Face model [page](https://huggingface.co/stabilityai/stable-zero123). 
+A Cog wrapper for Stable Zero123, based on the Stable Diffusion 1.5 framework, is designed for the generation of 3D object representations from multiple views. It incorporates Score Distillation Sampling (SDS) to optimize Neural Radiance Fields (NeRF), facilitating the creation of textured 3D meshes. The API also supports the conversion of text descriptions into 3D objects, initially using SDXL for image generation and subsequently applying the Stable Zero123 model for 3D generation. See the official [announcement](https://stability.ai/news/stable-zero123-3d-generation) and Hugging Face model [page](https://huggingface.co/stabilityai/stable-zero123). 
 
 **Note**: This implementation is adapted from [threestudio](https://github.com/threestudio-project/threestudio)'s implementation for 3D generation.
 
